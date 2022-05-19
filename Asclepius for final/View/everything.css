@@ -1,0 +1,330 @@
+/* landing page start */
+#logo{
+    text-align: center;
+}
+#logo img{
+    height:150px;
+    width: 150px;
+    padding-top: 25px;
+    border-radius: 27px;
+    margin-top: 7px;
+    
+}
+#title{
+    margin: 0px;
+    font-family: cursive;
+}
+/* landing page end */
+
+/* loginpage */
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+    
+}
+#logoleft{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    border:2px solid red;
+    border-radius: 17px;
+    
+    
+}
+
+#logoright{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+    border:2px solid blue;
+    border-radius: 17px;
+    
+}
+.top h1{
+    font-family: cursive;
+    background-color:azure;
+    border-radius: 12px;
+    padding: 5px;
+    
+}
+#login h1{
+    font-family: cursive;
+    margin: 0px;
+    
+}
+#login form{
+    box-shadow:2px 2px gray;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 33px;
+    border-radius: 12px;
+    opacity: 0.90;
+}
+input{
+border-radius: 22px;
+height: 25px;
+margin: 6px 6px;
+
+}
+#loginbtn {
+height: 60px;
+width: 120px;
+
+border-radius: 23px;
+margin-bottom: 0px;
+}
+#loginbtn:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+#registerbtn{
+height: 60px;
+width: 200px;
+border-radius: 23px;
+margin-bottom: 70px;
+}
+#registerbtn:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+
+/* adding new css for validation */
+.form-control i{
+position:absolute;
+top:255px;
+/* left:20px; */
+visibility:hidden;
+}
+.form-control small{
+visibility:hidden;
+position:absolute;
+top:280px;
+color:red;
+left:520px;
+} 
+.form-control1 i{
+position:absolute;
+top:315px;
+/* left:20px; */
+visibility:hidden;
+}
+.form-control1 small{
+visibility:hidden;
+position:absolute;
+top:340px;
+color:red;
+left:520px;
+}
+/* Loginpage done */
+
+/* Registration page */
+#register h1{
+    font-family: cursive;
+    margin: 0px;
+}
+#register form{
+    background-color: aliceblue;
+    display: inline-block;
+    opacity: 0.90;
+    padding: 33px;
+    border-radius: 12px;
+    box-shadow:2px 2px gray;
+}
+input{
+border-radius: 22px;
+height: 25px;
+margin: 6px 6px;
+}
+#regbtn {
+height: 60px;
+width: 120px;
+
+border-radius: 23px;
+margin-bottom: 0px;
+}
+#regbtn:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+#loginbtn{
+height: 60px;
+width: 200px;
+border-radius: 23px;
+margin-bottom: 70px;
+}
+#loginbtn:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+
+/* registration done */
+
+/* Homepage */
+#control{
+    font-family: cursive;
+    display: inline;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    padding: 5px;
+    opacity: 0.90;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+}
+#item1{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    margin: 12px;
+    opacity: 0.90;
+}
+#item2{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    margin: 12px;
+    opacity: 0.90;
+    
+}
+#item3{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    margin: 12px;
+    opacity: 0.90;
+}
+#item4{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    margin: 12px;
+    opacity: 0.90;
+}
+#buttonhome{
+height: 60px;
+width: 200px;
+border-radius: 23px;
+margin: 10px;
+}
+#buttonhome:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+#logout{
+height: 60px;
+width: 200px;
+border-radius: 23px;
+margin: 10px;
+}
+#logout:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+
+/* homepage done */
+
+/* allshow */
+
+h3{
+    text-align: right;
+    color: white;
+    margin-right: 125px;
+    padding:2px;
+}
+#admininfo{
+    font-family: cursive;
+    display: inline;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    padding: 5px;
+    opacity: 0.90;
+}
+#logout{
+height: 60px;
+width: 200px;
+border-radius: 23px;
+margin: 10px;
+}
+#logout:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+
+#crudoperation h1{
+    font-family: cursive;
+    margin: 0px;
+}
+#crudoperation form{
+    background-color: aliceblue;
+    display: inline-block;
+    opacity: 0.90;
+    padding: 33px;
+    border-radius: 12px;
+    box-shadow:2px 2px gray;
+}
+input{
+border-radius: 22px;
+height: 25px;
+margin: 6px 6px;
+}
+#addadmin {
+height: 60px;
+width: 120px;
+
+border-radius: 23px;
+margin-bottom: 0px;
+}
+#addadmin:hover{
+color: white;
+background-color: gray;
+cursor: pointer;
+
+}
+table{
+background-color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.90;
+    padding: 33px;
+    padding-left: 350px;
+    border-radius: 12px;
+    box-shadow:2px 2px gray;
+    margin: 2px;
+    margin-top: 15px;
+}
+/* all show done */
+
+/* for ajax  */
+#load {
+    height: 60px;
+    width: 120px;
+    
+    border-radius: 23px;
+    margin-bottom: 0px;
+    }
+    #load:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    
+    }
